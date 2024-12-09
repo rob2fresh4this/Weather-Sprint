@@ -1,0 +1,61 @@
+body{
+    background-image: url(../assets/images/Background-Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 80%;
+    margin: 4.5rem auto;
+    overflow: hidden;
+    background-color: #00C6C699;
+    border: solid black 1px; 
+    height: 40rem;
+    display: flex;
+}
+
+/* box-left */
+.box-left{
+    width: 45%;
+    border: 1px solid black;
+}
+
+.search-bar{
+    height: 10%;
+    background-color: white;
+    margin: 1rem;
+}
+
+.Favorites{
+    height:68.7%;
+    background-color: #145255;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+/* box-left */
+
+/* box-right */
+.box-right{
+    width: 55%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box{
+    height: 60%;
+    background-color: #145255;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.bottom-box{
+    height: 29%;
+    background-color: #145255;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
