@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,74 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/weather02-512.webp">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="box-left">
-            <input type="text" class="search-bar" placeholder="Search for a city...">
-            <div id="favorite" class="Favorites">
-                content
+        <div class="weather-dashboard">
+            <div class="search-bar">
+                <span>&#x1F50D;</span>
+                <input type="text" placeholder="Search City">
             </div>
-        </div>
-        <div class="box-right">
-            <div class="top-box">content</div>
-            <div class="bottom-box">content</div>
+
+            <div class="favorites">
+                <h2>Favorites</h2>
+                <div class="city">
+                    <span>London, UK</span>
+                    <span>60&#176;</span>
+                </div>
+                <div class="city">
+                    <span>Stockton, US</span>
+                    <span>60&#176;</span>
+                </div>
+                <div class="city">
+                    <span>Sonora, MX</span>
+                    <span>60&#176;</span>
+                </div>
+            </div>
+
+            <div class="main-weather">
+                <div>
+                    <span>&#9728;</span>
+                    <h2>Sunny</h2>
+                </div>
+                <div class="temperature">60&#176;F</div>
+                <div>60&#176;/30&#176;</div>
+                <div>Monday</div>
+                <div>Wind: 2 m/s</div>
+                <div>Humidity: 30%</div>
+                <div>&#9825; Modesto, US</div>
+            </div>
+
+            <div class="forecast">
+                <div class="day">
+                    <div>Tue</div>
+                    <div>&#9728;</div>
+                    <div>60&#176;</div>
+                    <div>60&#176;/30&#176;</div>
+                </div>
+                <div class="day">
+                    <div>Wed</div>
+                    <div>&#x2614;</div>
+                    <div>60&#176;</div>
+                    <div>60&#176;/30&#176;</div>
+                </div>
+                <div class="day">
+                    <div>Thu</div>
+                    <div>&#9729;</div>
+                    <div>60&#176;</div>
+                    <div>60&#176;/30&#176;</div>
+                </div>
+                <div class="day">
+                    <div>Fri</div>
+                    <div>&#9728;</div>
+                    <div>60&#176;</div>
+                    <div>60&#176;/30&#176;</div>
+                </div>
+            </div>
         </div>
     </div>
 
     <script type="module" src="./scripts/script.js"></script>
 </body>
+
 </html>
