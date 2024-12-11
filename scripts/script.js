@@ -1,5 +1,8 @@
 import { APIKEY } from './envorimint.js';
 
+const inputField = document.querySelector('.search-bar');
+const searchButton = document.querySelector('.search-button');
+const storedValue = document.querySelector('.favorites');
 navigator.geolocation.getCurrentPosition(success, error);
 
 function success(position) {
@@ -25,3 +28,13 @@ function apiCall(latitude, longitude) {
             console.log(data);
         })
 }
+
+function fetchForecast(cityName) {
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${APIKEY}&units=imperial`)
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data);
+            displayForecast(data);
+        });
+}
+
