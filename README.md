@@ -20,17 +20,17 @@
 #### Your Names:  Robert G.
 
 #### Date Revised  
-- []  
+- [12/13/24]  
 
 #### Exercise or Lab Name  
-- []  
+- [Weather Sprint]  
 
 #### Revision History  
-- [] 
-- [] 
-- [] 
-- [] 
-- [] 
+- [12/9/24] got the api to display and got the location to work with the api; worked on html/css 
+- [12/10/24] made at small base to start working on
+- [12/11/24] made more chages to the page; work on a small amount of js
+- [12/12/24] worked on js
+- [12/13/24] finished up js
 
 # Review by: Ian Chesley
 
