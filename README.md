@@ -32,16 +32,16 @@
 - [] 
 - [] 
 
-# Review by:
+# Review by: Ian Chesley
 
-### Overall Feedback:
+### Overall Feedback:  The code works very well.
 
 
 ### Suggestions:
 - []
-- [its intentional]
+- []
 
-### Final Thoughts:
+### Final Thoughts: Simple and effective.
 
 
 ---
@@ -88,8 +88,3 @@ This project is a prototype for a weather application. The goal is to provide us
 - **Design**: Focus on creating a clean and user-friendly layout.
 - **API Integration**: Utilize the OpenWeatherMap API effectively to fetch and display accurate weather data.
 
-
-
-
-Peer Name: Ian Chesley
-Peer Review: Simple and effective. The code works very well.
