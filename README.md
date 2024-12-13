@@ -87,3 +87,9 @@ This project is a prototype for a weather application. The goal is to provide us
 - **Persistence**: Use a suitable method (e.g., `localStorage`) to ensure data remains after the browser is closed.
 - **Design**: Focus on creating a clean and user-friendly layout.
 - **API Integration**: Utilize the OpenWeatherMap API effectively to fetch and display accurate weather data.
+
+
+
+
+Peer Name: Ian Chesley
+Peer Review: Simple and effective. The code works very well.
