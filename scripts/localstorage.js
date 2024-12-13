@@ -1,5 +1,5 @@
 function saveToLocalStorage(name) {
-    console.log("Saving to local storage:", name);
+    console.log("Saving to local storage: ", name);
     let nameArr = getFromLocalStorage();
     if (!nameArr.includes(name)) {
         nameArr.push(name);
